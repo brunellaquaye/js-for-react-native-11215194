@@ -9,3 +9,18 @@ function processArray(array) {
   }
   return newProcessArray;
 }
+
+// Task 2
+function formatArrayStrings(strings,numbers) {
+    let newFormatArray = [];
+    for (let i = 0; i < strings.length; i++){
+        if(numbers[i]%2 === 0){
+            newFormatArray.push(strings[i].toUpperCase());
+        }else {
+            newFormatArray.push(strings[i].toLowerCase());
+    }
+}
+    return newFormatArray;
+};
+
+ 
